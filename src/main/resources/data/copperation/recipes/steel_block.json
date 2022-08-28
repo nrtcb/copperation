@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "copperation:steel_ingot"
+        }
+    },
+    "result": {
+        "count": 4,
+        "item": "copperation:steel_block"
+    }
+}
