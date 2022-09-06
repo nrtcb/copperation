@@ -31,6 +31,14 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops()
                     .sound(SoundType.COPPER)), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
+    public static final RegistryObject<Block> COPPER_LEVER = registerBlock(  "copper_lever",
+            () -> new LeverBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f)
+                    .instabreak()
+                    .noCollission()
+                    .dynamicShape()
+                    .sound(SoundType.COPPER)), CreativeModeTab.TAB_REDSTONE);
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);

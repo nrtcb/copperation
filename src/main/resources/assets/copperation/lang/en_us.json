@@ -1,5 +1,7 @@
 {
   "item.copperation.silicon": "Silicon",
   "item.copperation.steel_ingot": "Steel Ingot",
-  "block.copperation.steel_block": "Steel Block"
+  "item.copperation.fortune_teller": "Fortune Teller",
+  "block.copperation.steel_block": "Steel Block",
+  "block.copperation.copper_lever": "Copper Lever"
 }

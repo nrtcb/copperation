@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
   "textures": {
-    "end": "copperation:block/vent_end",
+    "end": "copperation:block/vent_top",
     "side": "copperation:block/vent_side"
   }
 }
