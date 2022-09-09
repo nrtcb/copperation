@@ -35,6 +35,25 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops()
                     .sound(SoundType.COPPER)), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
+    public static final RegistryObject<Block> COPPER_PIPE = registerBlock(  "copper_pipe",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .sound(SoundType.COPPER)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> EXPOSED_COPPER_PIPE = registerBlock(  "exposed_copper_pipe",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .sound(SoundType.COPPER)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> WEATHERED_COPPER_PIPE = registerBlock(  "weathered_copper_pipe",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .sound(SoundType.COPPER)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> OXIDIZED_COPPER_PIPE = registerBlock(  "oxidized_copper_pipe",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops()
+                    .sound(SoundType.COPPER)), CreativeModeTab.TAB_BUILDING_BLOCKS);
+
+
+
     public static final RegistryObject<Block> COPPER_LEVER = registerBlock(  "copper_lever",
             () -> new LeverBlock(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(6f)

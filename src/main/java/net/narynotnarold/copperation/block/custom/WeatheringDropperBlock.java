@@ -8,10 +8,10 @@ import net.minecraft.world.level.block.WeatheringCopper;
 import net.minecraft.world.level.block.state.BlockState;
 
 public abstract class WeatheringDropperBlock extends DropperBlock implements WeatheringCopper {
-    private WeatherState weatherState;
-
-    public WeatheringDropperBlock(Properties properties) {
+    private final WeatheringCopper.WeatherState weatherState;
+    public WeatheringDropperBlock(Properties properties, WeatherState weatherState) {
         super(properties);
+        this.weatherState = weatherState;
     }
     public void randomTick(BlockState pState, ServerLevel pLevel, BlockPos pPos, RandomSource pRandom) {
         this.onRandomTick(pState, pLevel, pPos, pRandom);
