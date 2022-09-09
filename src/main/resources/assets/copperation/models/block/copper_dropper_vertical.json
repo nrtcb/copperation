@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/orientable_vertical",
+  "textures": {
+    "front": "copperation:block/copper_dropper_vertical",
+    "side": "copperation:block/copper_dropper_top"
+  }
+}

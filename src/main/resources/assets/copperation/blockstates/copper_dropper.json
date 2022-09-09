@@ -1,0 +1,26 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "copperation:block/copper_dropper_vertical",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "copperation:block/copper_dropper",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "copperation:block/copper_dropper"
+    },
+    "facing=south": {
+      "model": "copperation:block/copper_dropper",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "copperation:block/copper_dropper_vertical"
+    },
+    "facing=west": {
+      "model": "copperation:block/copper_dropper",
+      "y": 270
+    }
+  }
+}

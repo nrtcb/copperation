@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "copperation:block/copper_dropper_top",
+    "front": "copperation:block/copper_dropper_front",
+    "side": "copperation:block/copper_dropper_side"
+  }
+}

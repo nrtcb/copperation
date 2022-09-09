@@ -25,6 +25,10 @@ public class ModBlocks {
                     .strength(6f).requiresCorrectToolForDrops()
                     .sound(SoundType.NETHERITE_BLOCK)), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
+    public static final RegistryObject<Block> COPPER_DROPPER = registerBlock(  "copper_dropper",
+            () -> new DropperBlock(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(2f).requiresCorrectToolForDrops()
+                    .sound(SoundType.COPPER)), CreativeModeTab.TAB_REDSTONE);
 
     public static final RegistryObject<Block> VENT = registerBlock(  "vent",
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.of(Material.METAL)
