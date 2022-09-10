@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "copperation:copper_bricks",
+    "copperation:exposed_copper_bricks",
+    "copperation:weathered_copper_bricks",
+    "copperation:oxidized_copper_bricks"
+  ]
+}
+
+
+
+
