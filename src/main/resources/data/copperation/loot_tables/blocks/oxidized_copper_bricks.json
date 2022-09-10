@@ -1,0 +1,13 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "copperation:oxidized_copper_bricks"
+        }
+      ]
+    }
+  ]
+}
