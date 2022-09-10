@@ -9,5 +9,9 @@
   "block.copperation.copper_pipe": "Copper Pipe",
   "block.copperation.exposed_copper_pipe": "Exposed Copper Pipe",
   "block.copperation.weathered_copper_pipe": "Weathered Copper Pipe",
-  "block.copperation.oxidized_copper_pipe": "Oxidized Copper Pipe"
+  "block.copperation.oxidized_copper_pipe": "Oxidized Copper Pipe",
+  "block.copperation.copper_bricks": "Copper Bricks",
+  "block.copperation.exposed_copper_bricks": "Exposed Copper Bricks",
+  "block.copperation.weathered_copper_bricks": "Weathered Copper Bricks",
+  "block.copperation.oxidized_copper_bricks": "Oxidized_Copper Bricks"
 }

@@ -16,5 +16,10 @@ public class BlockProperties {
     public static final BlockBehaviour.Properties EXPOSED_COPPER_PIPE = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER);
     public static final BlockBehaviour.Properties WEATHERED_COPPER_PIPE = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GREEN).strength(6F).sound(SoundType.COPPER);
     public static final BlockBehaviour.Properties OXIDIZED_COPPER_PIPE = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_GREEN).strength(6F).sound(SoundType.COPPER);
+    //Copper bricks i think
+    public static final BlockBehaviour.Properties COPPER_BRICKS = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER);
+    public static final BlockBehaviour.Properties EXPOSED_COPPER_BRICKS = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER);
+    public static final BlockBehaviour.Properties WEATHERED_COPPER_BRICKS = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GREEN).strength(6F).sound(SoundType.COPPER);
+    public static final BlockBehaviour.Properties OXIDIZED_COPPER_BRICKS = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_GREEN).strength(6F).sound(SoundType.COPPER);
 
 }

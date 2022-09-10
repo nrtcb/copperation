@@ -26,5 +26,10 @@ public class CBlocks {
     public static final RegistryObject<Block> EXPOSED_COPPER_PIPE = HELPER.createBlock("exposed_copper_pipe", () -> new RotatedPillarBlock(BlockProperties.EXPOSED_COPPER_PIPE), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> WEATHERED_COPPER_PIPE = HELPER.createBlock("weathered_copper_pipe", () -> new RotatedPillarBlock(BlockProperties.WEATHERED_COPPER_PIPE), CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> OXIDIZED_COPPER_PIPE = HELPER.createBlock("oxidized_copper_pipe", () -> new RotatedPillarBlock(BlockProperties.OXIDIZED_COPPER_PIPE), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    //Copper Bricks
+    public static final RegistryObject<Block> COPPER_BRICKS = HELPER.createBlock("copper_bricks", () -> new Block(BlockProperties.COPPER_BRICKS), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> EXPOSED_COPPER_BRICKS = HELPER.createBlock("exposed_copper_bricks", () -> new Block(BlockProperties.EXPOSED_COPPER_BRICKS), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> WEATHERED_COPPER_BRICKS = HELPER.createBlock("weathered_copper_bricks", () -> new Block(BlockProperties.WEATHERED_COPPER_BRICKS), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> OXIDIZED_COPPER_BRICKS = HELPER.createBlock("oxidized_copper_bricks", () -> new Block(BlockProperties.OXIDIZED_COPPER_BRICKS), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 }
