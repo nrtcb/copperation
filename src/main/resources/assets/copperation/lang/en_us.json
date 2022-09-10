@@ -3,5 +3,11 @@
   "item.copperation.steel_ingot": "Steel Ingot",
   "item.copperation.fortune_teller": "Fortune Teller",
   "block.copperation.steel_block": "Steel Block",
-  "block.copperation.copper_lever": "Copper Lever"
+  "block.copperation.copper_lever": "Copper Lever",
+  "block.copperation.vent": "Vent",
+  "block.copperation.copper_dropper": "Copper Dropper",
+  "block.copperation.copper_pipe": "Copper Pipe",
+  "block.copperation.exposed_copper_pipe": "Exposed Copper Pipe",
+  "block.copperation.weathered_copper_pipe": "Weathered Copper Pipe",
+  "block.copperation.oxidized_copper_pipe": "Oxidized Copper Pipe"
 }
