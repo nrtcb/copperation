@@ -35,7 +35,7 @@ public class CBlocks {
 
     //Redstone Blocks
     public static final RegistryObject<Block> COPPER_LEVER = HELPER.createBlock("copper_lever", () -> new RotatedPillarBlock(BlockProperties.COPPER_LEVER), CreativeModeTab.TAB_REDSTONE);
-    public static final RegistryObject<Block> COPPER_PRESSURE_PLATE = HELPER.createBlock("copper_pressure_plate", () -> new PressurePlateBlock(BlockProperties.COPPER_PRESSURE_PLATE), CreativeModeTab.TAB_REDSTONE);
+    public static final RegistryObject<Block> COPPER_PRESSURE_PLATE = HELPER.createBlock("copper_pressure_plate", () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,BlockProperties.COPPER_PRESSURE_PLATE), CreativeModeTab.TAB_REDSTONE);
 
     //Dropper Blocks
     public static final RegistryObject<Block> COPPER_DROPPER = HELPER.createBlock("copper_dropper", () -> new DropperBlock(BlockProperties.COPPER_DROPPER), CreativeModeTab.TAB_REDSTONE);
