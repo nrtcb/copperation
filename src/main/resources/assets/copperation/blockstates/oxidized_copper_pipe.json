@@ -1,7 +1,7 @@
 {
   "variants": {
     "axis=x": {
-      "model": "copperation:block/oxidized_copper_pipe_horizontal",
+      "model": "copperation:block/oxidized_copper_pipe",
       "x": 90,
       "y": 90
     },
@@ -9,7 +9,7 @@
       "model": "copperation:block/oxidized_copper_pipe"
     },
     "axis=z": {
-      "model": "copperation:block/oxidized_copper_pipe_horizontal",
+      "model": "copperation:block/oxidized_copper_pipe",
       "x": 90
     }
   }
