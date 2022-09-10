@@ -2,10 +2,7 @@ package net.narynotnarold.copperation.common.registry;
 
 import com.teamabnormals.blueprint.core.util.registry.BlockSubRegistryHelper;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.DropperBlock;
-import net.minecraft.world.level.block.PressurePlateBlock;
-import net.minecraft.world.level.block.RotatedPillarBlock;
+import net.minecraft.world.level.block.*;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 import net.narynotnarold.copperation.Copperation;
@@ -34,7 +31,7 @@ public class CBlocks {
     public static final RegistryObject<Block> OXIDIZED_COPPER_BRICKS = HELPER.createBlock("oxidized_copper_bricks", () -> new Block(BlockProperties.OXIDIZED_COPPER_BRICKS), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
     //Redstone Blocks
-    public static final RegistryObject<Block> COPPER_LEVER = HELPER.createBlock("copper_lever", () -> new RotatedPillarBlock(BlockProperties.COPPER_LEVER), CreativeModeTab.TAB_REDSTONE);
+    public static final RegistryObject<Block> COPPER_LEVER = HELPER.createBlock("copper_lever", () -> new LeverBlock(BlockProperties.COPPER_LEVER), CreativeModeTab.TAB_REDSTONE);
     public static final RegistryObject<Block> COPPER_PRESSURE_PLATE = HELPER.createBlock("copper_pressure_plate", () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING,BlockProperties.COPPER_PRESSURE_PLATE), CreativeModeTab.TAB_REDSTONE);
 
     //Dropper Blocks
