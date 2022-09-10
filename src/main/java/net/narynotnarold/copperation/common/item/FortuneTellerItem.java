@@ -1,4 +1,4 @@
-package net.narynotnarold.copperation.item.custom;
+package net.narynotnarold.copperation.common.item;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.RandomSource;

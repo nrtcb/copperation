@@ -1,41 +1,27 @@
 package net.narynotnarold.copperation;
 
-import com.mojang.logging.LogUtils;
+
+import com.teamabnormals.blueprint.core.util.registry.RegistryHelper;
+import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.narynotnarold.copperation.block.ModBlocks;
-import net.narynotnarold.copperation.item.ModItems;
-import org.slf4j.Logger;
 
 @Mod(Copperation.MOD_ID)
-public class Copperation
-{
+public class Copperation {
     public static final String MOD_ID = "copperation";
-    private static final Logger LOGGER = LogUtils.getLogger();
-
+    public static final RegistryHelper REGISTRY_HELPER = new RegistryHelper(MOD_ID);
     public Copperation() {
-        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-
-        ModItems.register(modEventBus);
-        ModBlocks.register(modEventBus);
-
-        modEventBus.addListener(this::commonSetup);
+        IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         MinecraftForge.EVENT_BUS.register(this);
-    }
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
+        REGISTRY_HELPER.register(bus);
+
+
+        bus.addListener(this::rendererSetup);
 
     }
-    @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
-    public static class ClientModEvents {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event) {
-
-        }
-    }
+    private void rendererSetup(EntityRenderersEvent.RegisterRenderers event) {}
 }

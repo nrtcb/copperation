@@ -1,4 +1,4 @@
-package net.narynotnarold.copperation.block.custom;
+package net.narynotnarold.copperation.common.block;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;
