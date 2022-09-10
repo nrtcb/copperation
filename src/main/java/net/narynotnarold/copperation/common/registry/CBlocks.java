@@ -37,5 +37,11 @@ public class CBlocks {
     //Dropper Blocks
     public static final RegistryObject<Block> COPPER_DROPPER = HELPER.createBlock("copper_dropper", () -> new DropperBlock(BlockProperties.COPPER_DROPPER), CreativeModeTab.TAB_REDSTONE);
 
+    //Copper Beams
+    public static final RegistryObject<Block> COPPER_BEAM = HELPER.createBlock("copper_beam", () -> new RotatedPillarBlock(BlockProperties.COPPER_BEAM), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> EXPOSED_COPPER_BEAM = HELPER.createBlock("exposed_copper_beam", () -> new RotatedPillarBlock(BlockProperties.EXPOSED_COPPER_BEAM), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> WEATHERED_COPPER_BEAM = HELPER.createBlock("weathered_copper_beam", () -> new RotatedPillarBlock(BlockProperties.WEATHERED_COPPER_BEAM), CreativeModeTab.TAB_BUILDING_BLOCKS);
+    public static final RegistryObject<Block> OXIDIZED_COPPER_BEAM = HELPER.createBlock("oxidized_copper_beam", () -> new RotatedPillarBlock(BlockProperties.OXIDIZED_COPPER_BEAM), CreativeModeTab.TAB_BUILDING_BLOCKS);
+
 
 }

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "copperation:block/weathered_copper_beam",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "copperation:block/weathered_copper_beam"
+    },
+    "axis=z": {
+      "model": "copperation:block/weathered_copper_beam",
+      "x": 90
+    }
+  }
+}

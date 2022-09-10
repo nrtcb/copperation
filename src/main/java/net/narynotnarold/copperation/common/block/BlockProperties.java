@@ -26,4 +26,10 @@ public class BlockProperties {
     public static final BlockBehaviour.Properties COPPER_LEVER = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER).instabreak().noCollission().dynamicShape();
     public static final BlockBehaviour.Properties COPPER_PRESSURE_PLATE = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER).noOcclusion();
 
+    //Copper Pipes
+    public static final BlockBehaviour.Properties COPPER_BEAM = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER);
+    public static final BlockBehaviour.Properties EXPOSED_COPPER_BEAM = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER);
+    public static final BlockBehaviour.Properties WEATHERED_COPPER_BEAM = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_LIGHT_GREEN).strength(6F).sound(SoundType.COPPER);
+    public static final BlockBehaviour.Properties OXIDIZED_COPPER_BEAM = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_GREEN).strength(6F).sound(SoundType.COPPER);
+
 }
