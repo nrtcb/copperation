@@ -17,5 +17,6 @@
   "block.copperation.copper_beam": "Copper Beam",
   "block.copperation.exposed_copper_beam": "Exposed Copper Beam",
   "block.copperation.weathered_copper_beam": "Weathered Copper Beam",
-  "block.copperation.oxidized_copper_beam": "Oxidized Copper Beam"
+  "block.copperation.oxidized_copper_beam": "Oxidized Copper Beam",
+  "block.copperation.redstone_lantern": "Redstone Lantern"
 }
