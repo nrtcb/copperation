@@ -1,16 +1,27 @@
 {
   "variants": {
-    "axis=x": {
-      "model": "copperation:block/copper_pipe",
-      "x": 90,
-      "y": 90
-    },
-    "axis=y": {
-      "model": "copperation:block/copper_pipe"
-    },
-    "axis=z": {
+    "facing=down": {
       "model": "copperation:block/copper_pipe",
       "x": 90
+    },
+    "facing=east": {
+      "model": "copperation:block/copper_pipe",
+      "y": 90
+    },
+    "facing=north,": {
+      "model": "copperation:block/copper_pipe"
+    },
+    "facing=south": {
+      "model": "copperation:block/copper_pipe",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "copperation:block/copper_pipe",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "copperation:block/copper_pipe",
+      "y": 270
     }
   }
 }

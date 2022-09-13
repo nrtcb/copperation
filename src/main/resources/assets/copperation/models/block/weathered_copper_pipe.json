@@ -1,7 +1,23 @@
 {
-  "parent": "minecraft:block/cube_column",
+  "parent": "block/block",
   "textures": {
-    "end": "copperation:block/weathered_copper_pipe_end",
-    "side": "copperation:block/weathered_copper_pipe_side"
-  }
+    "bottom": "block/weathered_copper_pipe_side",
+    "side": "block/weathered_copper_pipe_side",
+    "top": "block/weathered_copper_pipe_end",
+    "front": "block/weathered_copper_pipe_side",
+    "particle": "block/weathered_copper_pipe_side"
+  },
+  "elements": [
+    {   "from": [ 0, 0, 0 ],
+      "to": [ 16, 16, 16 ],
+      "faces": {
+        "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "cullface": "down" },
+        "up":    { "uv": [ 0, 16, 16, 0 ], "texture": "#top", "cullface": "up" },
+        "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#front", "cullface": "north" },
+        "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "south" },
+        "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "west" },
+        "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "east" }
+      }
+    }
+  ]
 }

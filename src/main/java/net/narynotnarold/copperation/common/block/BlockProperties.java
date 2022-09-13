@@ -25,6 +25,7 @@ public class BlockProperties {
     //Redstone Blocks
     public static final BlockBehaviour.Properties COPPER_LEVER = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER).instabreak().noCollission().dynamicShape();
     public static final BlockBehaviour.Properties COPPER_PRESSURE_PLATE = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER).noOcclusion();
+    public static final BlockBehaviour.Properties REDSTONE_LANTERN = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(3.5F).lightLevel(state -> 7).sound(SoundType.LANTERN);
     //Copper Pipes
     public static final BlockBehaviour.Properties COPPER_BEAM = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER);
     public static final BlockBehaviour.Properties EXPOSED_COPPER_BEAM = BlockBehaviour.Properties.of(Material.METAL, MaterialColor.COLOR_ORANGE).strength(6F).sound(SoundType.COPPER);
