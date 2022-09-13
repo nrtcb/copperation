@@ -1,26 +1,29 @@
 {
   "variants": {
-    "facing=down": {
+    "facing=up": {
       "model": "copperation:block/weathered_copper_pipe",
-      "x": 90
+      "x": 180
     },
     "facing=east": {
       "model": "copperation:block/weathered_copper_pipe",
+      "x": 90,
       "y": 90
     },
-    "facing=north,": {
-      "model": "copperation:block/weathered_copper_pipe"
+    "facing=north": {
+      "model": "copperation:block/weathered_copper_pipe",
+      "x": 90
     },
     "facing=south": {
       "model": "copperation:block/weathered_copper_pipe",
+      "x": 90,
       "y": 180
     },
-    "facing=up": {
-      "model": "copperation:block/weathered_copper_pipe",
-      "x": 270
+    "facing=down": {
+      "model": "copperation:block/weathered_copper_pipe"
     },
     "facing=west": {
       "model": "copperation:block/weathered_copper_pipe",
+      "x": 90,
       "y": 270
     }
   }
