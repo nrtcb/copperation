@@ -15,5 +15,6 @@ public class CItems {
 
     public static final RegistryObject<Item> SILICON = HELPER.createItem("silicon", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> STEEL_INGOT = HELPER.createItem("steel_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> STEEL_PLATE = HELPER.createItem("steel_plate", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
     public static final RegistryObject<Item> FORTUNE_TELLER = HELPER.createItem("fortune_teller", () -> new FortuneTellerItem(new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).durability(10).rarity(Rarity.EPIC)));
 }
