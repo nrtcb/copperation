@@ -1,3 +1,6 @@
 {
-  "parent": "copperation:block/redstone_lantern"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "copperation:item/redstone_lantern"
+  }
 }
