@@ -14,8 +14,8 @@ import org.jetbrains.annotations.NotNull;
 
 public class RedstoneLanternBlock extends LanternBlock {
     public static final BooleanProperty HANGING = BlockStateProperties.HANGING;
-    private static final VoxelShape AABB = Shapes.or(Block.box(4.0D, 0.0D, 4.0D, 12.0D, 11.0D, 12.0D));
-    private static final VoxelShape HANGING_AABB = Shapes.or(Block.box(4.0D, 3.0D, 4.0D, 12.0D, 14.0D, 12.0D));
+    private static final VoxelShape AABB = Shapes.or(Block.box(4.0D, 0.0D, 4.0D, 12.0D, 11.0D, 12.0D),Block.box(3.0D, 0.0D, 3.0D, 13.0D, 2.0D, 13.0D),Block.box(3.0D, 9.0D, 3.0D, 13.0D, 11.0D, 13.0D));
+    private static final VoxelShape HANGING_AABB = Shapes.or(Block.box(4.0D, 3.0D, 4.0D, 12.0D, 14.0D, 12.0D),Block.box(3.0D, 3.0D, 3.0D, 13.0D, 5.0D, 13.0D),Block.box(3.0D, 12.0D, 3.0D, 13.0D, 14.0D, 13.0D));
 
 
     public RedstoneLanternBlock(Properties p_153465_) {
