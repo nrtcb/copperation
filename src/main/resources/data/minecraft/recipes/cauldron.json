@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "key": {
+        "#": {
+            "item": "copperation:steel_ingot"
+        },
+        "X": {
+            "item": "copperation:steel_plate"
+        }
+    },
+    "pattern": [
+        "###",
+        "xx"
+    ],
+    "result": {
+        "item": "minecraft:cauldron"
+    }
+}
