@@ -1,18 +1,19 @@
 {
     "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##",
+        "**"
+    ],
     "key": {
         "#": {
             "item": "copperation:steel_ingot"
         },
-        "X": {
+        "*": {
             "item": "copperation:steel_plate"
         }
     },
-    "pattern": [
-        "###",
-        "xx"
-    ],
     "result": {
+        "count": 1,
         "item": "minecraft:cauldron"
     }
 }

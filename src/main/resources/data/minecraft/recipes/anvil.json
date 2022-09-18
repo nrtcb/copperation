@@ -1,19 +1,20 @@
 {
     "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        " * ",
+        "***"
+    ],
     "key": {
-        "I": {
+        "#": {
             "item": "copperation:steel_ingot"
         },
-        "i": {
+        "*": {
             "item": "copperation:steel_plate"
         }
     },
-    "pattern": [
-        "III",
-        " i ",
-        "iii"
-    ],
     "result": {
+        "count": 1,
         "item": "minecraft:anvil"
     }
 }
